@@ -641,7 +641,24 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: GLTFAST
+    EmbeddedLinux: GLTFAST
+    GameCoreScarlett: GLTFAST
+    GameCoreXboxOne: GLTFAST
+    LinuxHeadlessSimulation: GLTFAST
+    Nintendo Switch: GLTFAST
+    PS4: GLTFAST
+    PS5: GLTFAST
+    QNX: GLTFAST
+    Stadia: GLTFAST
+    Standalone: GLTFAST
+    VisionOS: GLTFAST
+    WebGL: GLTFAST
+    Windows Store Apps: GLTFAST
+    XboxOne: GLTFAST
+    iPhone: GLTFAST
+    tvOS: GLTFAST
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

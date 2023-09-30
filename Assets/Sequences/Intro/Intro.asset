@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713e0022c0ffe974bb14d5e0611b0797, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  m_RootIndex: 0
+  m_Manager:
+    rid: 5137931665539072000
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 5137931665539072000
+      type: {class: SequenceManager, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Data:
+        - rid: 5137931665539072001
+        - rid: 5137931665539072004
+        - rid: 5137931665539072006
+        m_AvailableIndices:
+          rid: -2
+    - rid: 5137931665539072001
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: Intro
+        m_Fps: 60
+        m_Start: 0
+        m_Duration: 25.083333333333332
+        m_Parent: -1
+        m_Children: 0100000002000000
+        m_Timeline: {fileID: 11400000, guid: 1297f73aecfc14103a8f83352d757988, type: 2}
+        m_ChildrenTrack: {fileID: 1701035066647894132, guid: 1297f73aecfc14103a8f83352d757988, type: 2}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 0}
+    - rid: 5137931665539072004
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: preview-01
+        m_Fps: -1
+        m_Start: 0
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 29db2dcd497ab4c639ce95d197706068, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 5387000658660282708, guid: 1297f73aecfc14103a8f83352d757988, type: 2}
+    - rid: 5137931665539072006
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: preview-02
+        m_Fps: -1
+        m_Start: 25.083333333332998
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: c28c284d07ba347e6a1e21a900f33f5f, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 3488129841197182676, guid: 1297f73aecfc14103a8f83352d757988, type: 2}
